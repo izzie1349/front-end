@@ -1,0 +1,54 @@
+
+/*
+
+.     reference classes
+#     reference ids
++     adjacent syblings
+SPACE descendants
+[]    attributes
+*/
+
+
+
+/*div {
+  color: black;
+}*/
+
+/*class reference*/
+.firstDiv{
+  color: blue;
+}
+
+/*class reference*/
+.secondDiv{
+  color: red;
+}
+
+/*id reference*/
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/*very uncommon, apply stylle to ALL elements*/
+/**{
+  color: black;
+}*/
+
+
+/*style unordered list <immediatley after> h3*/
+/*adjacent syblings*/
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/*style all anchor tags <inside> a list*/
+li a{
+  color:red;
+}
+
+/*style all anchor tage <inside> a list <with> href*/
+li a[href="https://www.youtube.com/"]{
+  color: blue;
+  border: 5px solid orange;
+}
