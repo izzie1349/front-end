@@ -1,0 +1,36 @@
+h2{
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 35px;
+}
+
+#charlestonGreen{
+  background-color: #21292B;
+  margin-right: 20px;
+}
+
+#silverChalice{
+  background-color: #B2B4A7;
+}
+
+#babyPowder{
+  background-color: #FDFDFD;
+}
+
+#outerSpace{
+  background-color: #464B4F;
+}
+
+#taupeGray{
+  background-color: #8D8D86;
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  height: 180px;
+  width: 100px;
+  border: 1px solid white;
+}
