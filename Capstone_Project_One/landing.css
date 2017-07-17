@@ -16,6 +16,8 @@ body{
   border-right: 60px solid #2EC4B6;
   border-bottom: 60px solid #2EC4B6;
   border-top: 10px solid #011627;
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
   /*margin-bottom: 0px;*/
 }
 
