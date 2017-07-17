@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!-- responsive design -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BreakPoints</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <style media="screen">
+      .boxy{
+        background: #b3ddff;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- large sized screens
+    when resized to medium, lg COLumns stack on top -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 boxy">COL LARGE 4 </div>
+        <div class="col-lg-4 boxy">COL LARGE 4 </div>
+        <div class="col-lg-4 boxy">COL LARGE 4 </div>
+      </div>
+    </div>
+
+    <!-- medium sized screens
+    when resized to small, md COLumn stack -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 boxy">COL MEDIUM 6</div>
+        <div class="col-md-6 boxy">COL MEDIUM 6</div>
+      </div>
+    </div>
+
+    <!-- SMALL -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 boxy">COL SM 3</div>
+        <div class="col-sm-3 boxy">COL SM 3</div>
+        <div class="col-sm-3 boxy">COL SM 3</div>
+        <div class="col-sm-3 boxy">COL SM 3</div>
+      </div>
+    </div>
+
+    <!-- Extra SMALL -->
+    <!-- dont stack -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3 boxy">COL XS 3</div>
+        <div class="col-xs-3 boxy">COL XS 3</div>
+        <div class="col-xs-3 boxy">COL XS 3</div>
+        <div class="col-xs-3 boxy">COL XS 3</div>
+      </div>
+    </div>
+
+    <!-- more the 12 unit COLs -->
+    <div class="row">
+      <div class="col-lg-6 boxy">
+        <div class="row">
+        <div class="col-lg-6 boxy">NEST ONE</div>
+        <div class="col-lg-6 boxy">NEST ONE</div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 boxy">TOP LEVEL</div>
+
+    </div>
+
+
+
+
+  </body>
+</html>
