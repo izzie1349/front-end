@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>forms</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <h1>FORMS!</h1><br>
+    <div class="container">
+
+
+      <form>
+
+        <!-- EMAIL -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Password">
+        </div>
+
+        <!-- DROPDOWN -->
+        <div class="form-group">
+          <label for="exampleSelect">Example Select</label>
+          <select class="form-control" id="exampleSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <!-- TEXT AREA -->
+        <div class="form-group">
+          <label for="exampleTextarea">Example Text Area</label>
+          <textarea id="exampleTextarea" class="form-control" name="name" rows="8" cols="40"></textarea>
+        </div>
+
+        <!-- INPUT FILE -->
+        <div class="form-group">
+          <label for="exampleInputFile">Example Input File</label>
+          <input id="exampleInputFile" type="file" class="form-control-file" >
+          <small id="fileHelp" class="form-text text-muted">input your resume</small>
+        </div>
+
+        <!-- RADIO BUTTONS -->
+        <fieldset class="form-group">
+          <legend>Radio buttons</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              Option one is this and that&mdash;be sure to include why it's great
+            </label>
+          </div>
+
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </div>
+
+          <div class="form-check disabled">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+              Option three is disabled
+            </label>
+          </div>
+        </fieldset>
+
+        <!-- CHECKBOX -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Check me out
+          </label>
+        </div>
+
+        <!-- SUBMIT BUTTON -->
+        <button type="submit" class="btn btn-primary">Submit</button><br><br>
+
+      </form>
+    </div>
+
+
+  </body>
+</html>
