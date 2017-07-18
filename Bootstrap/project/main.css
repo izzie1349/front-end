@@ -1,0 +1,17 @@
+.container{
+  border-top: 35px solid white;;
+}
+
+.form-check-label{
+  font-weight: normal;
+}
+
+.submitButton{
+  padding: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #dce0e8;
+}
