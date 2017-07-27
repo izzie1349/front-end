@@ -25,8 +25,8 @@ def match(guess_number, random_number):
     for i in range(len(guess_number)):
         if guess_number[i] == random_number[i]:
             return True
-        else:
-            return False
+    else:
+        return False
 
 # True: correct number, incorrect position
 def close(guess_number, random_number):
@@ -48,7 +48,7 @@ while GAME:
     guess_str = str(guess)
     guess_number = [i for i in guess_str]
 
-    # # test
+    # test
     # print ("random number =>  ", random_number)
     # print("match =>  ", match(guess_number, random_number))
     # print("close =>  ", close(guess_number, random_number))
